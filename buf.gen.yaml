@@ -2,7 +2,7 @@ version: v1
 managed:
   enabled: true
   go_package_prefix:
-    default: github.com/ngdangkietswe/swe-protobuf-shared/generated
+    default: github.com/hovanduanit/lms-proto/generated
     except:
       - buf.build/googleapis/googleapis
       - buf.build/envoyproxy/protoc-gen-validate
