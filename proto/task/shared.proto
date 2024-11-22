@@ -2,7 +2,7 @@ syntax = "proto3";
 package task;
 
 option java_multiple_files = true;
-option java_package = "dev.ngdangkietswe.sweprotobufshared.task.protobuf";
+option java_package = "proto.service.shared";
 option java_outer_classname = "TaskProtobuf";
 
 enum Status {

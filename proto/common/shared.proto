@@ -4,7 +4,7 @@ package common;
 option go_package = "proto/common";
 
 option java_multiple_files = true;
-option java_package = "dev.ngdangkietswe.sweprotobufshared.common.protobuf";
+option java_package = "proto.common";
 option java_outer_classname = "CommonProtobuf";
 
 message Pageable {
@@ -32,6 +32,12 @@ message Error {
   map<string, string> details = 4;
 }
 
+// COMMON REQUEST MESSAGES
+message IdReq {
+  string id = 1;
+}
+
+// COMMON RESPONSE MESSAGES
 message UpsertResp {
   message Data {
     string id = 1;
